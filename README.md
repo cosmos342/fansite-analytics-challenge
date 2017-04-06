@@ -18,8 +18,8 @@
     * A 6th parameter of debug can be given to enable debug. But debug is primitive currently and didn't find time to enhance</br>
     * Another option that is very useful in debugging a software  handling large number of events is circular buffer of event/state history. For example host state history can be kept to debug any issue with host's state machine</br>
   * Testing</br>
-    * Unit tested with the 4Meg log.txt file provided and verified the program correctly runs and generates output file.
-    * For unit testing for each feature i used small files of 10-20 entries to make sure it provides correct output and fixed issues found along the way(such as BLOCK timer not expiring, priority of hosts being wrong and so on)
+    * Unit tested with the ~4Meg events having log.txt file provided, and verified the program correctly runs and generates output file.
+    * For unit testing for each feature, i used small files of 10-20 entries to make sure it provides correct output and fixed issues found along the way(such as BLOCK timer not expiring, priority of hosts being wrong and so on)
    
 
 # Credits:
