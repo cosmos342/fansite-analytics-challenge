@@ -8,7 +8,7 @@
     * 300 buckets chosen to schedule maximum timer of 5 minutes required to block host in case of 3 failed attempts</br>
     * Red black tree implementation based TreeMap is used to store Host entries to keep track of host related events. Provides log(N) search /add/delete times</br>
     * TreeMap is also used to store Resource entries to keep track of bytes consumed for resource </br>
-    * PriorityMap are used to keep track of top 10 entries for host(by events),resource(by bytes), hours(by number of events)</br>
+    * PriorityQueue are used to keep track of top 10 entries for host(by events),resource(by bytes), hours(by number of events)</br>
     * Also we have Circular Buffer of 3600 entries(for 3600 seconds) to keep track of number of events by each hour.
     * We can make the parameters for wheel timer bucket size, granularity etc to be provided at the run timer as enhancements</br>
   * Optimizations</br>
