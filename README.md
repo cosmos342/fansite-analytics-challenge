@@ -1,6 +1,6 @@
 # INSIGHT DATA ENGINEERING coding challenge.
 * The coding challenge requires to process log.txt input file and produce 4 output files as per the following https://github.com/InsightDataScience/fansite-analytics-challenge </br>
-* I have used java for the same with java version of java version "1.8.0_77"
+* I have used java for the same with java version "1.8.0_77"
 * I have imported java.util,java.lang,java.io,java.time,java.text packages</br>
   * Design </br>
     * Wheel Timer is used to schedule events and timers.</br>
