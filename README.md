@@ -12,7 +12,7 @@
     * Also we have Circular Buffer of 3600 entries(for 3600 seconds) to keep track of number of events by each hour.
     * We can make the parameters for wheel timer bucket size, granularity etc to be provided at the run timer as enhancements</br>
   * Optimizations</br>
-    * A cache of most recent hosts that are communicating with the server can be kept. First lookup can be then done in this cache and if miss only then lookup can be done in big host tree. This would speed up the processing time.
+    * A cache of most recent hosts that are communicating with the server can be kept. First lookup can be then done in this cache and if miss only then lookup can be done in the big host tree. This would speed up the processing time.
     * Optimization can be done in re-using the wheel timer buckets instead of allocating each time an event or timer is added </br>
     * Parsing can be improved to handle all scenarios, this code currently only handles some cases for lack of time to work on the project</br>
   * Debugging</br>
