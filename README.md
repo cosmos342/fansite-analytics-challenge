@@ -26,6 +26,4 @@
 # Credits:
 * Thanks for the opportunity. This is a very good challenge and enjoyed working on it.
 
-# Result:
-* Offered Insight Data Engineering fellowship!
 
